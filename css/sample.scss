@@ -486,7 +486,7 @@ header {
 
 // contents
 
-#contents_area {
+#contents {
     
     padding-top: 20px;
     
@@ -498,11 +498,7 @@ header {
         padding-bottom: 15px;
     }
     
-    .news_lists li {
-        list-style: none;
-    }
-    
-    .news_lists li span {
+    #main .news_lists li span {
         color: #42b9d0;
         font-weight: bold;
         display: block;
@@ -520,19 +516,24 @@ header {
             padding-bottom: 20px;
         }
         
-        .news_lists li span {
+        #main .news_lists li {
+        list-style: none;
+        padding-bottom: 5px;
+        }
+        
+        #main .news_lists li span {
             display: inline-block;
+            margin-bottom: 0;
+            padding-right: 10px;
         }
         
     }
 }
 
-#contents {
-    padding-top: 20px;
-    
+
+#contents #main {
     @media (min-width: 550px) {
-    padding-top: 35px;
-    padding-bottom: 70px;
+    padding-right: 20px;
     }
 }
 

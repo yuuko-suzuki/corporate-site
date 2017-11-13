@@ -261,38 +261,38 @@ h1 {
         font-size: 3.2rem;
         letter-spacing: 0.2rem; } }
 
-#contents_area {
+#contents {
   padding-top: 20px; }
-  #contents_area h2 {
+  #contents h2 {
     color: #42b9d0;
     font-size: 1.5rem;
     font-weight: bold;
     border-bottom: 3px solid #42b9d0;
     padding-bottom: 15px; }
-  #contents_area .news_lists li {
-    list-style: none; }
-  #contents_area .news_lists li span {
+  #contents #main .news_lists li span {
     color: #42b9d0;
     font-weight: bold;
     display: block;
     margin-bottom: 3px; }
   @media (min-width: 551px) {
-    #contents_area {
+    #contents {
       padding-top: 35px;
       padding-bottom: 70px; }
-      #contents_area h2 {
+      #contents h2 {
         font-size: 20px;
         font-size: 2rem;
         padding-bottom: 20px; }
-      #contents_area .news_lists li span {
-        display: inline-block; } }
+      #contents #main .news_lists li {
+        list-style: none;
+        padding-bottom: 5px; }
+      #contents #main .news_lists li span {
+        display: inline-block;
+        margin-bottom: 0;
+        padding-right: 10px; } }
 
-#contents {
-  padding-top: 20px; }
-  @media (min-width: 550px) {
-    #contents {
-      padding-top: 35px;
-      padding-bottom: 70px; } }
+@media (min-width: 550px) {
+  #contents #main {
+    padding-right: 20px; } }
 
 #contents #main h2.company_title {
   margin-bottom: 0px; }
